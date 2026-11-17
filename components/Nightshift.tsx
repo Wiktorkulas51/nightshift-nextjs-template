@@ -5,6 +5,7 @@ import { Hero, Nav } from "./Hero";
 import { Night } from "./Night";
 import { Receipt } from "./Receipt";
 import { FinalCta, Footer, HouseRules, Pricing, Quote } from "./Closing";
+import { OnepasteBanner } from "./OnepasteBanner";
 
 // Riso print world: every colour is an ink or the paper, and overlapping inks multiply like on a real duplicator.
 const CSS = `
@@ -83,6 +84,7 @@ export default function Nightshift() {
           <FinalCta />
         </main>
         <Footer />
+        <OnepasteBanner />
       </div>
     </MotionConfig>
   );
